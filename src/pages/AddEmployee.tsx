@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { employeeService } from '../services/employeeService'
-import { Employee } from '../types/employee'
 import Navbar from '../components/Navbar'
 import toast from 'react-hot-toast'
 

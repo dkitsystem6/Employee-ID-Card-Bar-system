@@ -217,6 +217,7 @@ export default function EmployeeID() {
                     displayValue={true}
                     fontSize={14}
                     margin={10}
+                    lineColor="#00184d"
                   />
                   <p className="text-xs text-gray-400 mt-2 text-center">
                     Scan with camera app and visit: {window.location.origin}/v/{employee.id_number}
